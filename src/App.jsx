@@ -70,7 +70,7 @@ function App() {
   }
 
   return (
-    <div className="flex h-screen bg-gray-100">
+    <div className="flex h-screen w-full bg-gray-100">
       {/* Sidebar Desktop */}
       <aside className="hidden md:flex flex-col w-64 bg-gradient-to-b from-emerald-600 to-teal-700 text-white">
         <div className="p-6 border-b border-emerald-500">

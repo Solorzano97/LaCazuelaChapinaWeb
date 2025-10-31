@@ -167,7 +167,7 @@ function ChatIA() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-emerald-50 to-teal-50 p-6">
+    <div className="w-full min-h-screen bg-gradient-to-br from-emerald-50 to-teal-50 p-6">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="bg-white rounded-t-2xl shadow-lg p-6 border-b">
