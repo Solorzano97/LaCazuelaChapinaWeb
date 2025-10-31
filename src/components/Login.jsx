@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { GoogleLogin } from '@react-oauth/google';
 import { Lock, Mail, User, Building2 } from 'lucide-react';
 
-const API_URL = 'https://localhost:7001/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://localhost:7001/api';
 
 function Login({ onLoginSuccess }) {
   const [modoRegistro, setModoRegistro] = useState(false);
