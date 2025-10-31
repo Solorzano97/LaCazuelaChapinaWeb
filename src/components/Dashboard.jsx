@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import { TrendingUp, DollarSign, ShoppingCart, Package, AlertTriangle } from 'lucide-react';
-import { dashboardService } from '../../services/apiService';
+import { dashboardService } from '../services/apiService';
 
 const COLORS = ['#10b981', '#3b82f6', '#f59e0b', '#ef4444', '#8b5cf6'];
 

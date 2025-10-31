@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Send, Bot, User, Sparkles, TrendingUp, Package, ShoppingBag } from 'lucide-react';
-import { iaService } from '../../services/apiService';
+import { iaService } from '../services/apiService';
 
 function ChatIA() {
   const [messages, setMessages] = useState([
