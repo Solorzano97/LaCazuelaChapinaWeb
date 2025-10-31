@@ -39,6 +39,8 @@ createRoot(document.getElementById('root')).render(
               <li>Tipo: "Aplicación web"</li>
               <li>Orígenes autorizados: <code className="bg-gray-200 px-1 rounded">http://localhost:5173</code></li>
               <li>Copia el Client ID y pégalo en el archivo <code className="bg-gray-200 px-1 rounded">.env</code></li>
+              <li>En el backend ingresa el cliente id en :  <code className="bg-gray-200 px-1 rounded">appsettings.json Google:ClientId</code></li>
+
             </ol>
           </div>
           <p className="text-sm text-gray-500">
